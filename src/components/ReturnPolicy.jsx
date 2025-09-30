@@ -6,21 +6,20 @@ const ReturnPolicy = () => {
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-sm">
         
         {/* العنوان الرئيسي */}
-        <h1 className="text-2xl md:text-3xl font-bold text-center text-[#9B2D1F] mb-6">
+        <h1 className="text-2xl md:text-3xl font-bold text-center text-[#eb7eab] mb-6">
           سياسة الاسترجاع والاستبدال
         </h1>
 
         {/* مقدمة الصفحة */}
         <div className="mb-8 text-right space-y-4">
           <p className="text-gray-700 text-lg leading-relaxed">
-            في سلطنة عُمان، وُلِدت فكرة <span className="font-semibold text-[#9B2D1F]">RF_COLLECTION</span> 
-            من طموح فتاة تسعى لتعكس أناقة المرأة العمانية بروحٍ عصرية. 
-            بدأت التصاميم من غرفتها باستخدام خامات فاخرة بلمسات مستوحاة من الطابع العماني الساتر، 
-            ومع الإصرار والجودة وصلت منتجاتها إلى النساء الباحثات عن التميز والبساطة حول العالم.
+            في <span className="font-semibold text-[#eb7eab]">maaalwardperfumes</span> 
+            نؤمن أن رضاكم هو أولويتنا. نقدم لكم أفخم العطور منذ عام 2013، 
+            ونحرص دائمًا على أن تصلكم منتجاتنا بأفضل جودة.
           </p>
           <p className="text-gray-600">
-            نؤمن بأن كل قطعة لديكِ فريدة صُممت خصيصًا لكِ، ومع ذلك نحرص أن تكون سياسة الاسترجاع والاستبدال 
-            واضحة وسهلة لضمان راحتكِ ورضاكِ التام.
+            لكل طلبية، نرفق لكم <span className="font-semibold text-[#eb7eab]">سمبل مجاني</span> 
+            لتجربة العطر قبل فتح العبوة الأساسية، وذلك حفاظًا على راحتكم وضمان ثقتكم بنا.
           </p>
         </div>
 
@@ -31,9 +30,9 @@ const ReturnPolicy = () => {
           <div className="border-b border-gray-100 pb-4">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">الاسترجاع</h3>
             <p className="text-gray-600 leading-relaxed">
-              نقبل طلبات الاسترجاع فقط في حال وجود خطأ في المقاس مقارنةً بالذي قام العميل بإرفاقه 
-              أو في حال وجود عيب أو تلف في المنتج. 
-              يجب تقديم الطلب خلال <span className="font-semibold text-[#9B2D1F]">24 ساعة من استلام الطلبية</span>.
+              نقبل طلبات الاسترجاع خلال 
+              <span className="font-semibold text-[#eb7eab]"> 3 أيام من استلام الطلبية</span>، 
+              بشرط أن تكون العبوة الأصلية مغلقة ولم تُستخدم، حيث يمكنكم تجربة السمبل المرفق قبل فتح المنتج.
             </p>
           </div>
 
@@ -42,7 +41,7 @@ const ReturnPolicy = () => {
             <h3 className="text-lg font-semibold text-gray-800 mb-2">شروط الاستبدال</h3>
             <p className="text-gray-600 leading-relaxed">
               لا نقبل استبدال المنتجات التي تم فتح عبواتها الأصلية أو استخدامها، 
-              وذلك لأسباب صحية وضمان الجودة.
+              وذلك لأسباب صحية وضمان الجودة. يمكنكم الاعتماد على السمبل المرفق للتجربة.
             </p>
           </div>
 
@@ -50,7 +49,7 @@ const ReturnPolicy = () => {
           <div className="border-b border-gray-100 pb-4">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">المنتجات التالفة</h3>
             <p className="text-gray-600 leading-relaxed">
-              في حال استلام منتج تالف، يرجى التواصل معنا خلال 24 ساعة مع إرفاق صور توضح المشكلة بوضوح.
+              في حال استلام منتج تالف، يرجى التواصل معنا خلال 3 أيام مع إرفاق صور توضح المشكلة بوضوح.
             </p>
           </div>
 

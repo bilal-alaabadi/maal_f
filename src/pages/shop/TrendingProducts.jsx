@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import RatingStars from '../../components/RatingStars';
 import { useFetchAllProductsQuery } from '../../redux/features/products/productsApi';
 import { useSelector } from 'react-redux';
-import log from "../../assets/Screenshot_2025-08-23_183158-removebg-preview.png"; // شعار الأنثور
+import log from "../../assets/ChatGPT Image Sep 29, 2025, 05_46_09 PM.png"; // شعار الأنثور
 
 const TrendingProducts = ({ onProductsLoaded }) => {
   const [visibleProducts, setVisibleProducts] = useState(4);
@@ -64,7 +64,7 @@ const TrendingProducts = ({ onProductsLoaded }) => {
   return (
     <section className="section__container product__container">
       <div className="relative text-center" dir="rtl">
-        <h2 className="text-[32px] font-normal text-[#CB908B] mb-1"> أحدث المنتجات</h2>
+        <h2 className="text-[32px] font-normal text-[#f7a4c7] mb-1"> أحدث المنتجات</h2>
 
         <div className="flex items-center justify-center gap-3 relative z-10">
           <span className="flex-1 max-w-[100px] h-px bg-[#c8c5b9]"></span>
