@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom';
 import ProductCards from './ProductCards';
 import ShopFiltering from './ShopFiltering';
 import { useFetchAllProductsQuery } from '../../redux/features/products/productsApi';
-import imge from "../../assets/Untitled-1.png";
+import imge from "../../assets/7oka002.png";
 
 const filters = {
   categories: ['الكل', 'العطور', 'بخور']
