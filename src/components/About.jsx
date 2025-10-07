@@ -43,6 +43,11 @@ const About = () => {
               عطورًا لا تُنسى… عطور تحكي قصتك.
             </p>
 
+            {/* ✅ الجملة الجديدة */}
+            <p className="leading-loose mb-4">
+              وحاليا تم التعاون مع شريك عماني
+            </p>
+
             <div className="mt-6 p-5 rounded-xl border border-gray-200">
               <h3 className="text-2xl font-semibold text-[#eb7eab] mb-3">
                 رؤيتنا

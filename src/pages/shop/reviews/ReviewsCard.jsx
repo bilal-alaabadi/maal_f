@@ -29,7 +29,7 @@ const ReviewsCard = ({ productReviews }) => {
   }
 
   return (
-    <div className='my-6 bg-gradient-to-r from-[#f8edf1] to-[#ffffff] bg-white p-8'>
+    <div className='my-6 bg-gradient-to-r  bg-white p-8'>
       <div>
         {
           reviews.length > 0 ? (

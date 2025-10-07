@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom';
 import ProductCards from './ProductCards';
 import ShopFiltering from './ShopFiltering';
 import { useFetchAllProductsQuery } from '../../redux/features/products/productsApi';
-import imge from "../../assets/Untitled-1.png";
+import imge from "../../assets/7oka002.png";
 
 const filters = {
   categories: ['الكل', 'العطور', 'بخور']
@@ -92,23 +92,23 @@ const ShopPage = () => {
               </svg>
             </button>
 
-            <div className={`${showFilters ? 'block' : 'hidden'} md:block bg-white p-4 rounded-lg shadow-sm`}>
+            {/* <div className={`${showFilters ? 'block' : 'hidden'} md:block bg-white p-4 rounded-lg shadow-sm`}>
               <ShopFiltering
                 filters={filters}
                 filtersState={filtersState}
                 setFiltersState={setFiltersState}
                 clearFilters={clearFilters}
               />
-            </div>
+            </div> */}
           </div>
 
           {/* Products List */}
           <div className='md:w-3/4'>
-            <div className='flex justify-between items-center mb-6'>
+            {/* <div className='flex justify-between items-center mb-6'>
               <h3 className='text-lg font-medium text-[#eb7eab]'>
                 عرض {startProduct}-{endProduct} من {totalProducts} منتج
               </h3>
-            </div>
+            </div> */}
 
             {products.length > 0 ? (
               <>
